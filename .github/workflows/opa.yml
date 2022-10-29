@@ -9,3 +9,5 @@ jobs:
     steps:
          - name: Test opa version
            run: version
+           with:
+            entrypoint: /opa
